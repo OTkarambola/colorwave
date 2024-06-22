@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a2e;
+    color: #fff;
+}
+
+header {
+    background-color: #0f3460;
+    padding: 1em;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 4em 1em;
+    background: url(nike.png) no-repeat;
+    background-size: cover;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero h2 {
+    font-size: 2em;
+    color: #ff4c60;
+}
+
+.hero button {
+    background-color: #ff4c60;
+    color: #fff;
+    border: none;
+    padding: 1em 2em;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.feature {
+    text-align: center;
+    max-width: 200px;
+}
+
+.reviews {
+    text-align: center;
+    padding: 2em;
+    background-color: #0f3460;
+}
+
+.review {
+    background-color: #1a1a2e;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.order {
+    padding: 2em;
+    background-color: #16213e;
+    text-align: center;
+}
+
+.order form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order label {
+    margin-top: 1em;
+}
+
+.order input {
+    margin-top: 0.5em;
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+.order button {
+    background-color: #ff4c60;
+    color: #fff;
+    border: none;
+    padding: 1em 2em;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+footer {
+    background-color: #0f3460;
+    text-align: center;
+    padding: 1em;
+}
+
+footer a {
+    color: #ff4c60;
+    text-decoration: none;
+}
